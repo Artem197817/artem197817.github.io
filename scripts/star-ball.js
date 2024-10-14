@@ -52,8 +52,8 @@ function canvasApp() {
         displayWidth = theCanvas.width = sphere_wrap.offsetWidth;
         displayHeight = theCanvas.height = sphere_wrap.offsetHeight;    
         fLen = 320;
-        projCenterX = displayWidth/1.5; // центр сферы по оси X
-        projCenterY = displayHeight/4; // центр сферы по оси Y
+        projCenterX = displayWidth/1.2; // центр сферы по оси X
+        projCenterY = displayHeight/3; // центр сферы по оси Y
         zMax = fLen-2;
         particleList = {};
         recycleBin = {};
